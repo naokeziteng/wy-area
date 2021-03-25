@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    schema:
+      - classpath:schema-area.sql
+    data:
+      - classpath:data-area.sql

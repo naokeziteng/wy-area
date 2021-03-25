@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.3.201:3306/area?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: password
+    initialization-mode: always
+  redis:
+    host: 192.168.3.201
+    port: 6379
+    password: password
+    database: 3
